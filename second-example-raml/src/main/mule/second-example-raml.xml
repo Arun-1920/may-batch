@@ -134,6 +134,7 @@ output application/json
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="4d29a918-11aa-4b15-8771-765b1f77c8e4" message="floe begin::::::::::::::::::::::::::::::::::::"/>
+		<logger level="INFO" doc:name="Logger" doc:id="4d29a918-11aa-4b15-8771-765b1f77c8e4" message="this is my info logs::::::::::::::::::::::::::::::::::::::::::::::::::::::::"/>
+		<logger level="INFO" doc:name="Logger" doc:id="69832cc1-0909-42ea-b15f-fd73c2829b90" message="this is my info logs::::::::::::::::::::"/>
     </flow>
 </mule>
